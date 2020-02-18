@@ -6,13 +6,15 @@ import "./Posts.css";
 // import data
 import dummydata from "../../dummy-data.js";
 
-const PostsPage = () => {
+const PostsPage = ({ filter }) => {
   // set up state for your data
   return (
     <div className="posts-container-wrapper">
-      {dummydata.map((post, idx) => (
-        <Post key={idx} post={post} />
-      ))}
+      {dummydata
+        .filter(post => post.username.includes(filter))
+        .map((post, idx) => (
+          <Post key={idx} post={post} />
+        ))}
     </div>
   );
 };

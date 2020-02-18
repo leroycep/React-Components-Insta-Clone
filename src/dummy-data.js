@@ -44,6 +44,23 @@ const dummyData = [
                 text: "It that injustice"
             }
         ]
+    },
+    {
+        username: "netflix",
+        thumbnailUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/1024px-Netflix_icon.svg.png',
+        imageUrl: 'https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3750&q=80',
+        likes: 1337,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "netflix",
+                text: "Dragonballz at noon!"
+            },
+            {
+                username: "martinseludo",
+                text: "Cant wait!"
+            },
+        ]
     }
 ];
 

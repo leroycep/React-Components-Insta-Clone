@@ -33,14 +33,14 @@ the project with the proper dependencies.
 
 ### **Tasks**
 
-- [ ] This app can be broken down to two main sections that you'll need to
+- [x] This app can be broken down to two main sections that you'll need to
       implement for this project: the Search Bar and the Posts.
-- [ ] To complete this project there will be a single instance of the Search Bar
+- [x] To complete this project there will be a single instance of the Search Bar
       being rendered at the top of the page, as well as a Post Container and a
       Comment Section for every piece of mock data in the `dummy-data.js` file.
-- [ ] Use what you learned yesterday to add and update state for the likes so
+- [x] Use what you learned yesterday to add and update state for the likes so
       that when you click on the heart icon it updates the number of likes.
-- [ ] Look through the code before you start. There are a lot of files. Not all
+- [x] Look through the code before you start. There are a lot of files. Not all
       of them need code added to them. Start in the App.js file and read the
       instructions there.
 - [ ] you'll want to add your own styles via CSS. To keep things organized, have
@@ -58,7 +58,7 @@ Your posts should look something like this: ![insta post](/assets/ig_post.png)
 
 ### Stretch Goals
 
-- [ ] Create more dummy data in the dummy-data.js file and add search
+- [x] Create more dummy data in the dummy-data.js file and add search
       functionality to the search bar. One way to do this is with a filter
       method.
 - [ ] Implement the ability to comment on a post with the `Add a comment...`
